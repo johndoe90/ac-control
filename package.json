@@ -1,0 +1,22 @@
+{
+  "name": "ac-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.47",
+    "systemjs": "^0.19.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1",
+    "live-server": "^0.8.2",
+    "typescript": "^1.7.3"
+  }
+}
