@@ -10,13 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var angular2_1 = require('angular2/angular2');
+var test_directive_1 = require('./test-directive');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         angular2_1.Component({
             selector: 'my-app',
-            template: '<h1>My First Angular 2 App21</h1>'
+            template: "<h1>My First Angular 2 App21</h1>\n         <div>\n            <test-directive></test-directive>\n         </div>",
+            directives: [test_directive_1.TestDirective]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
